@@ -1,0 +1,721 @@
+/* Documento CSS*/
+
+/* Classe para tirar o hiperlink dos textos*/
+
+
+
+body
+{
+    background-image: url(img/fundo.jpg);
+width:100%;
+    
+  
+    margin:auto;
+    align-items:center;
+    align-content: center; 
+
+    width: 275px; 
+    
+    max-width:275px;
+    
+    max-height: 500px;
+    overflow:  hidden; 
+}
+
+.ht
+{
+  
+    font-weight: bold; 
+    font-size: 25;  
+    align-content: center; 
+    font-family:"Rockwell"; 
+    
+    
+    
+}
+
+
+.primeiroBotao
+{
+    background:transparent;
+    
+    border:none;
+    outline:none;
+    display:block;
+    height:10px;
+    width:10px;
+    cursor:pointer;
+    resize:vertical;
+    background-color: transparent;
+    
+       
+}
+.primeiralinha
+{
+    
+    align-items: flex-end;
+    align-items: center; 
+    
+
+}
+.segundalinha
+{
+    align-items: flex-end;
+    align-items: center; 
+}
+.FundoBarra
+{
+    position: absolute; 
+    width: 300PX; 
+    height: 50px; 
+    top:-30; 
+    
+}
+.fundocombo
+{
+    align-content: stretch; 
+    align-items: stretch; 
+    position: absolute; 
+    
+    top:9em; 
+    z-index: -2;
+    
+}
+.ComboCidade
+{
+width: 240px; 
+  overflow: hidden;
+  border: none;
+       top:9em; 
+    margin: 0PX;
+    caret-color: #2E2E2E;
+ 
+    position: relative; 
+    right: -10; 
+    top: 3; 
+    
+     
+    
+    
+}
+.ComboCidade select
+        
+{   
+     
+    
+       outline-color: #2E2E2E; 
+    border-color: transparent;
+    user-select: none; 
+    backface-visibility: hidden; 
+    
+    
+
+        
+    
+    
+    background: url(img/seta.png) no-repeat  #2E2E2E; 
+    
+    -webkit-appearance: none
+    backface-visibility:visible;  
+    /* Imagem de fundo (Seta) */
+      background-position: 215px center;  /*Posição da imagem do background*/
+      border-color: transparent;
+    outline-color: transparent; 
+    border-style: none;
+      width: 270px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+      height:35px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */
+     
+      font-family:Tw Cen MT, Helvetica, sans-serif; /* Fonte do Select */
+      font-size:20px; /* Tamanho da Fonte */
+      padding:3px 0px 9px 12px; /* Configurações de padding para posicionar o texto no campo */
+      color:#fff; /* Cor da Fonte */
+      text-indent: 0.00px; /* Remove seta padrão do FireFox */
+      text-overflow: "";  /* Remove seta padrão do FireFox */     
+      select::-ms-expand {display: none;} /* Remove seta padrão do IE*/
+          border: none;
+
+}
+
+.Botaovoltar
+{
+
+    position: relative; 
+    right: -10; 
+    top:145; 
+}
+
+.BotaoProximo
+{
+    top: 100; 
+    position: relative; 
+    left: 140; 
+}
+
+/*Essa div serve como referencia da nossa imagem de fundo  */
+.nicho
+{
+    position: relative; 
+    left: 8; 
+    top: 10; 
+    z-index: -2;
+    max-width: 150;
+}
+
+
+
+/*aqui começa o texto da pagina*/
+
+.Titulo
+{
+    position: relative; 
+    font-size: 15; 
+    font-family: "Rockwell"; 
+    color: white; 
+    text-decoration: none;
+    TOP:-60PX; 
+    right:-15PX; 
+    max-width: 250; 
+        max-height: 40px;
+     
+}
+Titulo:link 
+{ 
+text-decoration:none; 
+    color: white; 
+} 
+Titulo.nounderline:link 
+{ 
+text-decoration:none; 
+    
+} 
+Titulo:hover
+{
+    text-decoration: none; 
+    color: white; 
+}
+Titulo:active 
+{
+    text-decoration: none
+} 
+{ 
+text-decoration:none; 
+} 
+.imagem
+{   position: relative; 
+    top:170px; 
+    right:0px;
+    max-width: 150; 
+}
+.Endereco
+{
+    top:-55px; 
+    position: relative; 
+    font-size: 10; 
+    font-family: "Rockwell"; 
+ color: white; 
+    right:-15PX; 
+    max-width: 250px;
+    max-height: 30px;
+}
+.tudo
+{
+align-items: center; 
+position: static; 
+border: 10; 
+max-height: 300;     
+}
+.contato
+{
+    /*Essa classe mexe na linha contato como um todo */ 
+}
+.imagemContato
+{
+position:relative;
+    right = -15; 
+    max-width: 100;
+    
+}
+.TextoContato
+{
+    color:white; 
+    position: relative ;
+    font-family: "Tw Cen MT";
+    right: -50; 
+    top:-25;  
+    max-width: 200; 
+}
+.tituloInfo
+{
+    position: relative; 
+    top :30px; 
+    align-content: center; 
+    color:white; 
+    font-weight: bold; 
+    font-size: 25;  
+    align-content: center; 
+    font-family:"Rockwell"; 
+    
+    
+}
+.Localizacao
+{
+/*Mexer a linha de localização */
+    
+}
+.imagemLocalizacao
+{
+    position: relative; 
+    top = -50px; 
+    right: 0px; 
+}
+.Textolocalizacao
+{
+    font-family: "Tw Cen MT"; 
+    color: white; 
+    position: relative; 
+    top: -35; 
+    right: -50; 
+    max-height: 50; 
+    max-width: 250;
+}
+.Horario
+{
+    /*Mexer a linha de horario*/ 
+    position: relative; 
+    top: -15; 
+}
+.imagemHorario
+{
+    position: relative;
+    top = 15px; 
+    right: 0px; 
+}
+.TextoHorario
+{
+    color: white; 
+    font-family: "Tw Cen MT"; 
+    position: relative; 
+    max-height: 50; 
+    max-width: 250;
+    right: -50; 
+    top:-35; 
+    
+}
+
+/* */
+.SITE
+{
+    /*Mexer a linha de horario*/ 
+    position: relative; 
+    top: -30; 
+}
+.imagemSITE
+{
+    position: relative;
+    top = 15px; 
+    right: 0px; 
+}
+.TextoSITE
+{
+    color: white; 
+    font-family: "Tw Cen MT"; 
+    position: relative; 
+    max-height: 50; 
+    max-width: 250;
+    right: -50; 
+    top:-35; 
+    
+}
+.tudoinfo
+{
+    max-width : 240; 
+}
+.BotaoContato
+{
+    position: relative; 
+ right: -150 ; 
+   top:-45; 
+}
+
+
+/*Coisas da telaContato*/
+
+
+
+.tudoContato
+{
+
+    
+}
+/*Parte dos botoes da tela Contato*/
+.linhaBotoes
+{
+   
+}
+
+.BotaoEnviar
+{
+    
+    position:relative; 
+    right: -150; 
+    top:-55; 
+}
+
+
+
+
+/*parte relacionada a input do nome */
+.textoNome
+{
+    position: relative; 
+    color: white; 
+    font-family:"Rockwell"; 
+    font-size: 18; 
+    font-weight: bold; 
+    top:-3; 
+    
+}
+.InputNome
+{
+
+height: 2;   
+position: relative; 
+    right:-70; 
+    top:-30; 
+ 
+}
+.ImagemFundo1
+{
+    position: relative; 
+    top:-30; 
+    right: -65;
+  
+     z-index: -2;
+}
+
+
+
+
+
+
+.TextoSobrenome
+{
+     position: relative; 
+    color: white; 
+    font-family:"Rockwell"; 
+    font-size: 18; 
+    font-weight: bold; 
+    top:-3;
+    
+}
+.InputSobrenome
+{
+    height: 2;   
+position: relative; 
+    right:-110; 
+    top:-65; 
+}
+
+.ImagemFundo2
+{
+    position: relative; 
+    top:-30; 
+    right: -110;
+  
+     z-index: -2;
+}
+.TextoEmail
+{
+    position: relative; 
+    color: white; 
+    font-family:"Rockwell"; 
+    font-size: 18; 
+    font-weight: bold; 
+    top:-3; 
+}
+.InputEmail
+{
+    position: relative;
+    top:-68; 
+    right:-65; 
+}
+.ImagemFundo3
+{
+    position: relative; 
+    top:-30; 
+    right: -65;
+  
+     z-index: -2;
+    
+}
+
+.TextoPergunta
+{
+    position: relative; 
+    color: white; 
+    font-family:"Rockwell"; 
+    font-size: 18; 
+    font-weight: bold; 
+    top:-3;
+}
+.ImagemCaixaTexto
+{
+    
+}
+.InputCaixaTexto
+{
+    position: relative; 
+    top:-180; 
+    right: -5; 
+}
+
+
+/*Configurações de input em geral*/ 
+
+#Nome[type=text]
+{
+        /* Configurações da input box do nome  */
+    width:195; 
+    padding: 5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2E2E2E;
+    color: white;
+    font-size:15 ;  
+        font-weight: bold; 
+    
+    font-family: "Tw Cen MT";
+    border-bottom-color:#2E2E2E;  
+    border-bottom: none; 
+        outline: none;
+                       
+}
+#Sobrenome[type=text]
+{
+    width:155; 
+    padding: 5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2E2E2E;
+    color: white;
+    font-size:15 ;  
+        font-weight: bold; 
+    
+    font-family: "Tw Cen MT";
+    border-bottom-color:#2E2E2E;  
+    border-bottom: none; 
+        outline: none;
+                       
+}
+#Email[type=text]
+{
+     width:200; 
+    padding: 5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2E2E2E;
+    
+    color: white;
+    font-size:15 ;  
+        font-weight: bold; 
+    
+    font-family: "Tw Cen MT";
+    border-bottom-color:#2E2E2E;  
+    border-bottom: none; 
+        outline: none;
+}
+#CaixaTexto[type=text]
+{
+     width:250; 
+    height: 140; 
+    padding: 5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2E2E2E;
+    
+    color: white;
+    font-size:15 ;  
+        font-weight: bold; 
+    
+    font-family: "Tw Cen MT";
+    border-bottom-color:#2E2E2E;  
+    border-bottom: none; 
+        outline: none;
+    resize: none; 
+}
+/*Configuração da dimensão das linhas */ 
+.linha1
+{
+    
+}
+.linha2
+{
+    position: relative;
+    top:-16; 
+}
+.linha3
+{
+    position: relative; 
+    top:-35; 
+}
+.tudoPergunta
+{
+    position: relative; 
+    top:-95;     
+}
+.linhabotoes
+{
+    
+}
+.linhaBotoesContato
+{
+    position: relative;
+    top:-230; 
+    right:10;
+}
+.tudoContato
+{
+    position: relative;
+    TOP:30;
+}
+.tudoTelaCidade
+{
+    
+    
+    
+}
+.banner
+{
+    position: relative; 
+    right: -5; 
+}
+.tudoMenuONG
+{
+    
+}
+.AjudeIdosos
+{
+    align-content: center; 
+    position: relative; 
+    right: 40; 
+}
+.AjudeCrianca
+{
+    align-content: center; 
+    position: relative; 
+    right: -110; 
+    TOP:-120; 
+}
+.linha1menu2
+{
+    position: relative; 
+    top:30; 
+}
+
+.AjudaCultura
+{
+    align-content: center; 
+    position: relative; 
+    right: 40; 
+    
+}
+.AjudaMoradores
+{
+    align-content: center; 
+    position: relative; 
+    right: -110; 
+    TOP:-120; 
+    
+}
+.linha2menu2
+{
+    position: relative;
+    top:-55;
+}
+.botaovoltar2
+{
+    position: relative; 
+    top:-145; 
+    right: -32;
+}
+.mapa
+{
+    position: relative; 
+    right: 10;
+}
+.tituloInfo
+{
+    width: 260; 
+    position: relative;
+    position: 40; 
+   
+}
+a:link {
+   color: white;
+    font-style: normal; 
+      font-family: "Rockwell";  
+    text-decoration: none;
+    font-style: bold; 
+
+    
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-style: bold; 
+}
+
+a:hover {
+     color: darkgray;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: darkgray;
+    text-decoration: none;
+}
+.tudo2
+{
+    position: relative; 
+    top:-120;
+    max-height: 250;
+    max-width: 300;
+}
+.tituloInfo
+{
+    font-size: 20;
+}
+.BotaoEnviar2
+{
+    position: relative; 
+    top:-55; 
+    right: -155;
+    
+} 
+.Botaovoltar2
+{
+    top:-10; 
+    position: relative; 
+    right: -10; 
+}
+.TudoNicho
+{
+    position: relative; 
+    top:-180; 
+}
+.vai
+{
+    position: relative; 
+    top:-140;
+    right: -30; 
+}
+.botaovoltar3
+{
+    position: relative;
+    right: -65; 
+}

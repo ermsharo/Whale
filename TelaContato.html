@@ -1,0 +1,113 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<html>
+    <head>
+        <title>Whale da massa</title>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+    input[type=text] {
+        /* Isso são configuração que serão carregadas em todos os inputs */
+ 
+    padding: 5px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #2E2E2E;
+    color: white;
+    font-size:15 ;  
+        font-weight: bold; 
+    
+    font-family: "Tw Cen MT";
+    border-bottom-color:#2E2E2E;  
+    border-bottom: none; 
+        outline: none;
+                     }
+    
+    </style>
+    
+    </head>
+    <body>
+ 
+
+        
+        <div class = "tudoContato">
+        
+              <div class = "linha1">
+            <div class = "TextoNome">
+            Nome:
+            </div>
+            <div class="inputNome" >
+                <form method="post" action="MandaEmail.php">    
+            <input id="Nome" type = "text" name ="nome">
+                </form>
+            </div>
+            <div class = "ImagemFundo1">
+            <img src = "img/Barra.png" width="200" height="35">
+            </div>
+              </div>
+            
+            
+             <div class = "linha2">
+            <div class = "TextoSobrenome">
+            Sobrenome:
+            </div>
+            <div class = "ImagemFundo2" >
+            <img src = "img/Barra.png" width="155" height= "35">    
+            </div>
+            <div class= "InputSobrenome" type = "text2">
+            <input id = "Sobrenome" type="text" name= "sobrenome">
+            </div>
+            </div>
+            
+            <div class = "linha3">
+                <div class = "TextoEmail">
+                Email:
+                </div>
+                <div class = "ImagemFundo3">
+                <img src = "img/Barra.png" width="200" height= "35"> 
+                </div>
+                <div class = "InputEmail">
+                <input id = "Email" type = "text" name = "email">
+                </div>
+             </div>
+            
+            <div class = tudoPergunta>
+            <div class = "TextoPergunta">
+                Sua pergunta: 
+                </div>
+                <div class = "ImagemCaixaTexto">
+                <img src = "img/CaixaTexto.png" width = "265" height="200">
+                </div>
+                <div class = "InputCaixaTexto">
+                <textarea id = CaixaTexto type="text"  name = "mensagem" cols = "36" > 
+               
+                </textarea>
+                    </div>
+            </div>
+            
+        
+        <div class = "linhaBotoesContato">
+        <div  class = "Botaovoltar">
+       
+            <a href="TelaMenu.html" >
+            <img src = "img/BtnVoltar.png" width="120" height="45">
+            </a>
+        </div>
+        
+        <div  class = "BotaoEnviar">
+            
+            <a href= MandaEmail.php  type="submit" >
+            <img src = "img/BtnEnviar.png" width="120" height="45">
+            </a>
+        </div>
+            </div>
+        
+        
+        
+        </div>
+        </form>
+       
+        
+    </body>
+</html>

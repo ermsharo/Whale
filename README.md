@@ -1,2 +1,0 @@
-# Whale
-Projeto de FSI
